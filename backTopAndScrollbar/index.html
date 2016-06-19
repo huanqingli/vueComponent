@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="scroll-bar">
+    <div id="bar" v-bind:style="styleObject" v-on:mousedown="drag"></div>
+</div>
+<div id="back-top" v-bind:style="styleObject" v-on:click="back">Top</div>
+<div id="text">往下咕噜吧亲</div>
+<script src="../lib/vue.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
